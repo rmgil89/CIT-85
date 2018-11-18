@@ -1,0 +1,19 @@
+div, p {
+	color: blue;
+}
+
+div > p {
+	color: indianred;
+}
+
+div + p {
+	color: magenta;
+}
+
+div ~ p {
+	color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
