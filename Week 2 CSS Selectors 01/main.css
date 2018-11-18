@@ -1,0 +1,18 @@
+a {
+  background-color: white;
+  border: 1px solid white;
+}
+
+a:visited {
+  background-color: yellow;
+  border-color: hotpink;
+  color: hotpink;
+}
+
+a:hover { 
+    background-color: purple;
+}
+
+a:active { 
+    background-color: red;
+}
