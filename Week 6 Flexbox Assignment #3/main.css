@@ -1,0 +1,55 @@
+html, body, main, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+main {
+    height: 100vh;
+    border: 3px dashed red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+div {
+    height: 200px;
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font: 900 2rem sans-serif;
+}
+
+#d1 {
+    flex-basis: 100%;
+    background-color: tomato;
+}
+
+#d2 {
+    flex-basis: 60%;
+    background-color: lightskyblue;
+}
+
+#d3 {
+    flex-basis: 40%;
+    background-color: greenyellow;
+}
+
+#d4 {
+    background-color: yellow;
+}
+
+#d5 {
+    background-color: purple;
+}
