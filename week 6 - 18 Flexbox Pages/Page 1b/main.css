@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    border: 5px solid red;
+}
+
+div {
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: tomato;
+    text-align: center;
+    font: bold 2rem/1 sans-serif;
+}
