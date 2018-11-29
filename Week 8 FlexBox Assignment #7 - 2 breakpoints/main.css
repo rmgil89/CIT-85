@@ -1,0 +1,15 @@
+body, html, header, article, aside, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, article, aside, footer {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
