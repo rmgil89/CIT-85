@@ -1,0 +1,18 @@
+html {
+    border: 3px dotted magenta;
+}
+body {
+    width: 45%;
+    border: 3px dotted black;
+}
+div {
+    border: 3px solid red;
+    color: black;
+}
+#cell1 {
+    position: absolute;
+    top: 150px;
+    width: 500px;
+    height: 750px;
+    background-color: dimgrey;
+}
