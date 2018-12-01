@@ -8,12 +8,12 @@ html, body, header, div, footer {
 }
 header, footer {
     height: 200px;
-    border: 10px solid grey;
-    background-color: green;
+    border: 10px dotted black;
+    background-color: blue;
 }
 div {
     height: 250px;
-    border: 5px solid blue;
+    border: 5px solid purple;
     display: inline-block;
 }
 #one {
