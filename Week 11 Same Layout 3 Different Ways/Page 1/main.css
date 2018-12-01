@@ -1,0 +1,37 @@
+html, body, header, div, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+header {
+    height: 200px;
+    border: 10px solid darkblue;
+    background-color: lightyellow;
+}
+main {
+    border: 10px solid lightgreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+footer {
+    height: 200px;
+    border: 10px solid red;
+    background-color: deeppink;
+}
+div {
+    height: 300px;
+    border: 5px solid green;
+}
+#one {
+    background-color: fuchsia;
+    flex-basis: 20%;
+}
+#two {
+    background-color: purple;
+    flex-basis: 80%;
+}

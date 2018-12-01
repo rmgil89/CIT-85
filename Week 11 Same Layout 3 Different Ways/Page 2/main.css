@@ -1,0 +1,37 @@
+html, body, header, div, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+header, footer {
+    height: 200px;
+    border: 10px solid pink;
+}
+
+header {
+    background-color: olivedrab;
+}
+
+footer {
+    background-color: fuchsia;
+    clear: left;
+}
+
+div {
+    height: 250px;
+    border: 5px solid black;
+}
+
+#one {
+    width: 20%;
+    float: left;
+}
+
+#two {
+    width: 80%;
+    float: left;
+}
