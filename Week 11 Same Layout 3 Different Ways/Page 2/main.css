@@ -13,11 +13,11 @@ header, footer {
 }
 
 header {
-    background-color: olivedrab;
+    background-color: green;
 }
 
 footer {
-    background-color: fuchsia;
+    background-color: red;
     clear: left;
 }
 
