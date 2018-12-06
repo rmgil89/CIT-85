@@ -1,0 +1,10 @@
+.circleBase {
+    border-radius: 50%;
+}
+
+.type1 {
+    width: 500px;
+    height: 500px;
+    background: pink;
+    border: 30px solid red;
+}
